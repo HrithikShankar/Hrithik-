@@ -1,0 +1,139 @@
+print("hello, welcome to HSmemes world")
+
+ans = input("Are you ready to play (yes/no)")
+score = 0
+total_q = 4
+
+if ans.lower() == "yes":
+    ans = input("1, is blue spot liquor is the place where clay and hannah work together (13 reasons why) ? ")
+    if ans.lower() == "no":
+        score +=1
+        print("correct")
+    else:
+        print("incorrect")
+        print("correct answer is crestmont movie theatre")
+
+
+    ans = input("2, Is YOGI the king in the north acc. to UP vaale? ")
+    if ans.lower() == "yes":
+        score +=1
+        print("correct")
+    else:
+        print("incorrect")
+        print("correct answer is bsdk ye to pata rakho kamse kam")
+
+
+    ans = input("3, did bryce listen to the tapes (13 reasons why)? ")
+    if ans.lower() == "NO":
+        score +=1
+        print("correct")
+    else:
+        print("incorrect")
+        print("correct answer is he didn't know about the tapes at all")
+
+
+    ans = input("4, Is friendship with jessica did hannah describe as 'hot chocolate friendship' (13 reasons why)? ")
+    if ans.lower() == "yes":
+        score +=1
+        print("correct")
+    else:
+        print("incorrect")
+
+
+    ans = input("5, Eleven was the character who was abducted into the upside down (stranger things)? ")
+    if ans.lower == "no":
+        score +=1
+        print("correct")
+    else:
+        print("incorrect")
+        print("correct answer is WILL was the character")
+
+
+    ans = input("6, upside down was the name of the fictitious city in which stranger things is set (stranger things)? ")
+    if ans.lower == "no":
+        score +=1
+        print("correct")
+    else:
+        print("incorrect")
+        print("correct answer is HAWKINS")
+
+
+    ans = input("7, Is smugglings drugs was the crime in which chapman is sentenced to 15 month in a correctional institution (orange is the new black)? ")
+    if ans.lower == "yes":
+        score +=1
+        print("correct")
+    else:
+        print("incorrect")
+
+
+    ans = input("8, Drop an important business call was the reason in which pennsatucky is sent to the psychiatric ward (orange is the new black)? ")
+    if ans.lower == "no":
+        score +=1
+        print("correct")
+    else:
+        print("incorrect")
+        print("correct answer is she attacks a girl in a wheelchair")
+
+
+
+    ans = input("9, Is lung cancer was the reason which led to walter white transformation from chemistry teacher to a criminal (breaking bad)? ")
+    if ans.lower == "yes":
+        score +=1
+        print("correct")
+    else:
+        print("incorrect")
+
+
+    ans = input("10, Drugs is the thing which hank start collecting while convalescing from salamanca twins (breaking bad)? ")
+    if ans.lower == "no":
+        score +=1
+        print("correct")
+    else:
+        print("incorrect")
+        print("correct answer is minirels")
+
+
+    ans = input("11, Monica and Chandler were siblings (FRIENDS)? ")
+    if ans.lower == "no":
+        score +=1
+        print("correct")
+    else:
+        print("incorrect")
+        print("correct answer is monica and ross")
+
+
+
+    ans = input("12, whats u do'in was joey's catchphrase (FRIENDS)? ")
+    if ans.lower == "no":
+        score +=1
+        print("correct")
+    else:
+        print("incorrect")
+        print("correct answer is how's u do'in")
+
+
+
+    ans = input("13, Daenerys targaryen eventually hatch her dragon eggs in a funeral pyre (game of thrones)? ")
+    if ans.lower == "yes":
+        score +=1
+        print("correct")
+    else:
+        print("incorrect")
+
+
+
+    ans = input("14, The phrase valar morghullis is usually responded with valar dohaeris (game of thrones)? ")
+    if ans.lower == "yes":
+        score +=1
+        print("correct")
+    else:
+        print("incorrect")
+
+
+print("Thank You for Playing, you got ', score, questions correct.")
+mark = (score/total_q)*100
+
+print("mark:", str(mark) + "%")
+print("Goodbye")
+
+        
